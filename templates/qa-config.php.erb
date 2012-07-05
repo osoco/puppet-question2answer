@@ -1,0 +1,19 @@
+<?php
+
+        define('QA_MYSQL_HOSTNAME', '127.0.0.1'); // try '127.0.0.1' or 'localhost' if MySQL on same server
+        define('QA_MYSQL_USERNAME', '<%= db_user %>');
+        define('QA_MYSQL_PASSWORD', '<%= db_passwd %>');
+        define('QA_MYSQL_DATABASE', '<%= db_name %>');
+
+        define('QA_MYSQL_TABLE_PREFIX', 'qa_');
+        define('QA_EXTERNAL_USERS', false);
+
+        define('QA_HTML_COMPRESSION', true);
+        define('QA_MAX_LIMIT_START', 19999);
+        define('QA_IGNORED_WORDS_FREQ', 10000);
+        define('QA_ALLOW_UNINDEXED_QUERIES', false);
+        define('QA_OPTIMIZE_LOCAL_DB', false);
+        define('QA_OPTIMIZE_DISTANT_DB', false);
+        define('QA_PERSISTENT_CONN_DB', false);
+        define('QA_DEBUG_PERFORMANCE', false);
+
